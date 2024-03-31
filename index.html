@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="popup"></div>
+    <h1 id="titletext">Excel Sheets</h1>
+    <div id="buttons">
+      <button id="" onclick="showFile()">File</button>
+      <button id="" onclick="">Insert</button>
+      <button id="" onclick="">Page Layout</button>
+      <button id="" onclick="">Formulas</button>
+      <button id="" onclick="">Review</button>
+      <button id="" onclick="showProperties()">Properties</button>
+      <button id="" onclick="">Developer</button>
+      <button id="" onclick="">Help</button>
+    </div> <br>
+    <div id="toolresult"></div>
+    <div id="item">
+      <input id="itemVisible" disabled></input>
+      <input id="enterFormula"></input>
+      <input type="submit" id="submitFormula"></input>
+    </div>
+    <div id="sheets" onchange="changeItem()"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

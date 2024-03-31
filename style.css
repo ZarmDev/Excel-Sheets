@@ -1,0 +1,25 @@
+#titletext {
+  font-size: 5vh;
+}
+
+#sheets {
+  display: grid;
+  max-height: 100vh;
+}
+
+input {
+  min-width: 0px;
+  min-height: 0px;
+  text-align: center;
+}
+#buttons > button {
+  width: 20vw;
+  height: 4vh;
+  font-size: 2vh;
+}
+#itemVisible {
+  width: 8vw;
+}
+#enterFormula {
+  width: 8vw;
+}
